@@ -1,0 +1,1001 @@
+Company,Sector,City,State,Ceo_woman
+Walmart,Retailing,Bentonville,AR,no
+Amazon,Retailing,Seattle,WA,no
+Apple,Technology,Cupertino,CA,no
+CVS Health,Health Care,Woonsocket,RI,yes
+UnitedHealth Group,Health Care,Minnetonka,MN,no
+Exxon Mobil,Energy,Irving,TX,no
+Berkshire Hathaway,Financials,Omaha,NE,no
+Alphabet,Technology,Mountain View,CA,no
+McKesson,Health Care,Irving,TX,no
+AmerisourceBergen,Health Care,Conshohocken,PA,no
+Costco Wholesale,Retailing,Issaquah,WA,no
+Cigna,Health Care,Bloomfield,CT,no
+AT&T,Telecommunications,Dallas,TX,no
+Microsoft,Technology,Redmond,WA,no
+Cardinal Health,Health Care,Dublin,OH,no
+Chevron,Energy,San Ramon,CA,no
+Home Depot,Retailing,Atlanta,GA,no
+Walgreens Boots Alliance,Food & Drug Stores,Deerfield,IL,yes
+Marathon Petroleum,Energy,Findlay,OH,no
+Elevance Health,Health Care,Indianapolis,IN,yes
+Kroger,Food & Drug Stores,Cincinnati,OH,no
+Ford Motor,Motor Vehicles & Parts,Dearborn,MI,no
+Verizon Communications,Telecommunications,New York,NY,no
+JPMorgan Chase,Financials,New York,NY,no
+General Motors,Motor Vehicles & Parts,Detroit,MI,yes
+Centene,Health Care,St. Louis,MO,yes
+Meta Platforms,Technology,Menlo Park,CA,no
+Comcast,Telecommunications,Philadelphia,PA,no
+Phillips 66,Energy,Houston,TX,no
+Valero Energy,Energy,San Antonio,TX,no
+Dell Technologies,Technology,Round Rock,TX,no
+Target,Retailing,Minneapolis,MN,no
+Fannie Mae,Financials,Washington,DC,no
+United Parcel Service,Transportation,Atlanta,GA,yes
+Lowe's,Retailing,Mooresville,NC,no
+Bank of America,Financials,Charlotte,NC,no
+Johnson & Johnson,Health Care,New Brunswick,NJ,no
+Archer Daniels Midland,"Food, Beverages & Tobacco",Chicago,IL,no
+FedEx,Transportation,Memphis,TN,no
+Humana,Health Care,Louisville,KY,no
+Wells Fargo,Financials,San Francisco,CA,no
+State Farm Insurance,Financials,Bloomington,IL,no
+Pfizer,Health Care,New York,NY,no
+Citigroup,Financials,New York,NY,yes
+PepsiCo,"Food, Beverages & Tobacco",Purchase,NY,no
+Intel,Technology,Santa Clara,CA,no
+Procter & Gamble,Household Products,Cincinnati,OH,no
+General Electric,Industrials,Boston,MA,no
+IBM,Technology,Armonk,NY,no
+MetLife,Financials,New York,NY,no
+Prudential Financial,Financials,Newark,NJ,no
+Albertsons,Food & Drug Stores,Boise,ID,no
+Walt Disney,Media,Burbank,CA,no
+Energy Transfer,Energy,Dallas,TX,no
+Lockheed Martin,Aerospace & Defense,Bethesda,MD,no
+Freddie Mac,Financials,McLean,VA,no
+Goldman Sachs Group,Financials,New York,NY,no
+Raytheon Technologies,Aerospace & Defense,Waltham,MA,no
+HP,Technology,Palo Alto,CA,no
+Boeing,Aerospace & Defense,Chicago,IL,no
+Morgan Stanley,Financials,New York,NY,no
+HCA Healthcare,Health Care,Nashville,TN,no
+AbbVie,Health Care,North Chicago,IL,no
+Dow,Chemicals,Midland,MI,no
+Tesla,Motor Vehicles & Parts,Austin,TX,no
+Allstate,Financials,Northbrook,IL,no
+American International Group,Financials,New York,NY,no
+Best Buy,Retailing,Richfield,MN,yes
+Charter Communications,Telecommunications,Stamford,CT,no
+Sysco,Wholesalers,Houston,TX,no
+Merck,Health Care,Kenilworth,NJ,no
+New York Life Insurance,Financials,New York,NY,no
+Caterpillar,Industrials,Deerfield,IL,no
+Cisco Systems,Technology,San Jose,CA,no
+TJX,Retailing,Framingham,MA,no
+Publix Super Markets,Food & Drug Stores,Lakeland,FL,no
+ConocoPhillips,Energy,Houston,TX,no
+Liberty Mutual Insurance Group,Financials,Boston,MA,no
+Progressive,Financials,Mayfield Village,OH,yes
+Nationwide,Financials,Columbus,OH,no
+Tyson Foods,"Food, Beverages & Tobacco",Springdale,AR,no
+Bristol-Myers Squibb,Health Care,New York,NY,no
+Nike,Apparel,Beaverton,OR,no
+Deere,Industrials,Moline,IL,no
+American Express,Financials,New York,NY,no
+Abbott Laboratories,Health Care,Abbott Park,IL,no
+StoneX Group,Financials,New York,NY,no
+Plains GP Holdings,Energy,Houston,TX,no
+Enterprise Products Partners,Energy,Houston,TX,no
+TIAA,Financials,New York,NY,yes
+Oracle,Technology,Austin,TX,yes
+Thermo Fisher Scientific,Technology,Waltham,MA,no
+Coca-Cola,"Food, Beverages & Tobacco",Atlanta,GA,no
+General Dynamics,Aerospace & Defense,Reston,VA,yes
+CHS,"Food, Beverages & Tobacco",Inver Grove Heights,MN,no
+USAA,Financials,San Antonio,TX,no
+Northwestern Mutual,Financials,Milwaukee,WI,no
+Nucor,Materials,Charlotte,NC,no
+Exelon,Energy,Chicago,IL,no
+Massachusetts Mutual Life Insurance,Financials,Springfield,MA,no
+Northrop Grumman,Aerospace & Defense,Falls Church,VA,yes
+3M,Chemicals,St. Paul,MN,no
+Travelers,Financials,New York,NY,no
+Arrow Electronics,Wholesalers,Centennial,CO,no
+Honeywell International,Industrials,Charlotte,NC,no
+Dollar General,Retailing,Goodlettsville,TN,no
+Qualcomm,Technology,San Diego,CA,no
+Capital One Financial,Financials,McLean,VA,no
+TD Synnex,Wholesalers,Fremont,CA,no
+Philip Morris International,"Food, Beverages & Tobacco",New York,NY,no
+World Fuel Services,Energy,Miami,FL,no
+Performance Food Group,Wholesalers,Richmond,VA,no
+Delta Air Lines,Transportation,Atlanta,GA,no
+American Airlines Group,Transportation,Fort Worth,TX,no
+Netflix,Media,Los Gatos,CA,no
+Paramount Global,Media,New York,NY,no
+US Foods Holding,Wholesalers,Rosemont,IL,no
+Danaher,Health Care,Washington,DC,no
+Jabil,Technology,St. Petersburg,FL,no
+Starbucks,"Hotels, Restaurants & Leisure",Seattle,WA,no
+Mondelez International,"Food, Beverages & Tobacco",Chicago,IL,no
+Eli Lilly,Health Care,Indianapolis,IN,no
+Hewlett Packard Enterprise,Technology,Houston,TX,no
+D.R. Horton,Engineering & Construction,Arlington,TX,no
+Molina Healthcare,Health Care,Long Beach,CA,no
+CBRE Group,Financials,Dallas,TX,no
+Micron Technology,Technology,Boise,ID,no
+Broadcom,Technology,San Jose,CA,no
+Gilead Sciences,Health Care,Foster City,CA,no
+PBF Energy,Energy,Parsippany,NJ,no
+Lennar,Engineering & Construction,Miami,FL,no
+United Natural Foods,Wholesalers,Providence,RI,no
+NRG Energy,Energy,Houston,TX,no
+Nvidia,Technology,Santa Clara,CA,no
+Occidental Petroleum,Energy,Houston,TX,yes
+Salesforce,Technology,San Francisco,CA,no
+Dollar Tree,Retailing,Chesapeake,VA,no
+KKR,Financials,New York,NY,no
+Kraft Heinz,"Food, Beverages & Tobacco",Chicago,IL,no
+Amgen,Health Care,Thousand Oaks,CA,no
+AutoNation,Retailing,Fort Lauderdale,FL,no
+Penske Automotive Group,Retailing,Bloomfield Hills,MI,no
+PayPal,Business Services,San Jose,CA,no
+Macy's,Retailing,New York,NY,no
+Duke Energy,Energy,Charlotte,NC,yes
+United Airlines Holdings,Transportation,Chicago,IL,no
+Visa,Business Services,San Francisco,CA,no
+Rite Aid,Food & Drug Stores,Camp Hill,PA,yes
+Cummins,Industrials,Columbus,IN,yes
+U.S. Bancorp,Financials,Minneapolis,MN,no
+Paccar,Motor Vehicles & Parts,Bellevue,WA,no
+McDonald's,"Hotels, Restaurants & Leisure",Chicago,IL,no
+Southern,Energy,Atlanta,GA,no
+C.H. Robinson Worldwide,Transportation,Eden Prairie,MN,no
+Truist Financial,Financials,Charlotte,NC,no
+Applied Materials,Technology,Santa Clara,CA,no
+Freeport-McMoRan,Energy,Phoenix,AZ,no
+Lithia Motors,Retailing,Medford,OR,no
+Blackstone,Financials,New York,NY,no
+Hartford Financial Services Group,Financials,Hartford,CT,no
+Aflac,Financials,Columbus,GA,no
+Whirlpool,Industrials,Benton Harbor,MI,no
+Union Pacific,Transportation,Omaha,NE,no
+International Paper,Materials,Memphis,TN,no
+Altria Group,"Food, Beverages & Tobacco",Richmond,VA,no
+CDW,Technology,Lincolnshire,IL,yes
+ManpowerGroup,Business Services,Milwaukee,WI,no
+PG&E,Energy,San Francisco,CA,yes
+Carrier Global,Industrials,Palm Beach Gardens,FL,no
+Baker Hughes,Energy,Houston,TX,no
+Cleveland-Cliffs,Materials,Cleveland,OH,no
+United States Steel,Materials,Pittsburgh,PA,no
+Becton Dickinson,Health Care,Franklin Lakes,NJ,no
+CarMax,Retailing,Richmond,VA,no
+Sherwin-Williams,Chemicals,Cleveland,OH,no
+Builders FirstSource,Materials,Dallas,TX,no
+Marsh & McLennan,Financials,New York,NY,no
+PNC Financial Services Group,Financials,Pittsburgh,PA,no
+Lumen Technologies,Telecommunications,Monroe,LA,no
+Avnet,Wholesalers,Phoenix,AZ,no
+Tenet Healthcare,Health Care,Dallas,TX,no
+Kimberly-Clark,Household Products,Irving,TX,no
+Kohl's,Retailing,Menomonee Falls,WI,yes
+BlackRock,Financials,New York,NY,no
+Jones Lang LaSalle,Financials,Chicago,IL,no
+Lear,Motor Vehicles & Parts,Southfield,MI,no
+Lincoln National,Financials,Radnor,PA,yes
+Charles Schwab,Financials,Westlake,TX,no
+Ross Stores,Retailing,Dublin,CA,yes
+Mastercard,Business Services,Purchase,NY,no
+Genuine Parts,Wholesalers,Atlanta,GA,no
+WestRock,Materials,Atlanta,GA,no
+EOG Resources,Energy,Houston,TX,no
+Cognizant Technology Solutions,Technology,Teaneck,NJ,no
+Moderna,Health Care,Cambridge,MA,no
+Steel Dynamics,Materials,Fort Wayne,IN,no
+HF Sinclair,Energy,Dallas,TX,no
+Texas Instruments,Technology,Dallas,TX,no
+Emerson Electric,Industrials,St. Louis,MO,no
+WESCO International,Wholesalers,Pittsburgh,PA,no
+General Mills,"Food, Beverages & Tobacco",Minneapolis,MN,no
+Tenneco,Motor Vehicles & Parts,Lake Forest,IL,no
+Waste Management,Business Services,Houston,TX,no
+Viatris,Health Care,Canonsburg,PA,no
+DISH Network,Telecommunications,Englewood,CO,no
+L3Harris Technologies,Aerospace & Defense,Melbourne,FL,no
+DXC Technology,Technology,Tysons,VA,no
+Block,Business Services,San Francisco,CA,no
+Goodyear Tire & Rubber,Motor Vehicles & Parts,Akron,OH,no
+Uber Technologies,Technology,San Francisco,CA,no
+Colgate-Palmolive,Household Products,New York,NY,no
+Stanley Black & Decker,Household Products,New Britain,CT,no
+DuPont,Chemicals,Wilmington,DE,no
+Stryker,Health Care,Kalamazoo,MI,no
+NextEra Energy,Energy,Juno Beach,FL,no
+Targa Resources,Energy,Houston,TX,no
+Western Digital,Technology,San Jose,CA,no
+PPG Industries,Chemicals,Pittsburgh,PA,no
+American Electric Power,Energy,Columbus,OH,no
+Gap,Retailing,San Francisco,CA,no
+BJ&#8217;s Wholesale Club,Retailing,Westborough,MA,no
+Reinsurance Group of America,Financials,Chesterfield,MO,yes
+Kinder Morgan,Energy,Houston,TX,no
+Oneok,Energy,Tulsa,OK,no
+Expeditors Intl. of Washington,Transportation,Seattle,WA,no
+Advanced Micro Devices,Technology,Santa Clara,CA,yes
+Fiserv,Business Services,Brookfield,WI,no
+Estée Lauder,Household Products,New York,NY,no
+Bank of New York Mellon,Financials,New York,NY,no
+Laboratory Corp. of America,Health Care,Burlington,NC,no
+Regeneron Pharmaceuticals,Health Care,Tarrytown,NY,no
+Land O'Lakes,"Food, Beverages & Tobacco",Arden Hills,MN,yes
+Cheniere Energy,Energy,Houston,TX,no
+Southwest Airlines,Transportation,Dallas,TX,no
+Adobe,Technology,San Jose,CA,no
+Synchrony Financial,Financials,Stamford,CT,no
+Corteva,"Food, Beverages & Tobacco",Indianapolis,IN,no
+Fidelity National Financial,Financials,Jacksonville,FL,no
+DTE Energy,Energy,Detroit,MI,no
+Murphy USA,Retailing,El Dorado,AR,no
+Halliburton,Energy,Houston,TX,no
+Automatic Data Processing,Business Services,Roseland,NJ,no
+Edison International,Energy,Rosemead,CA,no
+BorgWarner,Motor Vehicles & Parts,Auburn Hills,MI,no
+Nordstrom,Retailing,Seattle,WA,no
+Loews,Financials,New York,NY,no
+Guardian Life Ins. Co. of America,Financials,New York,NY,no
+Pioneer Natural Resources,Energy,Irving,TX,no
+AutoZone,Retailing,Memphis,TN,no
+Lam Research,Technology,Fremont,CA,no
+American Family Insurance Group,Financials,Madison,WI,no
+Illinois Tool Works,Industrials,Glenview,IL,no
+Parker-Hannifin,Industrials,Cleveland,OH,no
+Otis Worldwide,Industrials,Farmington,CT,yes
+Omnicom Group,Business Services,New York,NY,no
+Principal Financial,Financials,Des Moines,IA,no
+Dominion Energy,Energy,Richmond,VA,no
+Kellogg,"Food, Beverages & Tobacco",Battle Creek,MI,no
+Fluor,Engineering & Construction,Irving,TX,no
+AECOM,Engineering & Construction,Dallas,TX,no
+Reliance Steel & Aluminum,Materials,Los Angeles,CA,no
+Jacobs Engineering Group,Engineering & Construction,Dallas,TX,no
+Corning,Industrials,Corning,NY,no
+Farmers Insurance Exchange,Financials,Woodland Hills,CA,no
+Qurate Retail,Retailing,Englewood,CO,no
+Pacific Life,Financials,Newport Beach,CA,no
+PulteGroup,Engineering & Construction,Atlanta,GA,no
+Fidelity National Information Services,Business Services,Jacksonville,FL,no
+IQVIA Holdings,Health Care,Durham,NC,no
+Marriott International,"Hotels, Restaurants & Leisure",Bethesda,MD,no
+Berry Global Group,Materials,Evansville,IN,no
+Ball,Materials,Westminster,CO,no
+Group 1 Automotive,Retailing,Houston,TX,no
+Leidos Holdings,Technology,Reston,VA,no
+Wayfair,Retailing,Boston,MA,no
+Consolidated Edison,Energy,New York,NY,no
+Ameriprise Financial,Financials,Minneapolis,MN,no
+Xcel Energy,Energy,Minneapolis,MN,no
+O'Reilly Automotive,Retailing,Springfield,MO,no
+Global Partners,Wholesalers,Waltham,MA,no
+Discover Financial Services,Financials,Riverwoods,IL,no
+Rocket Companies,Financials,Detroit,MI,no
+LKQ,Wholesalers,Chicago,IL,no
+W.W. Grainger,Wholesalers,Lake Forest,IL,no
+Quanta Services,Engineering & Construction,Houston,TX,no
+Crown Holdings,Materials,Yardley,PA,no
+Fox,Media,New York,NY,no
+Sempra,Energy,San Diego,CA,no
+Markel,Financials,Glen Allen,VA,no
+Carvana,Retailing,Tempe,AZ,no
+XPO Logistics,Transportation,Greenwich,CT,no
+Baxter International,Health Care,Deerfield,IL,no
+Ecolab,Chemicals,St. Paul,MN,no
+Tractor Supply,Retailing,Brentwood,TN,no
+Andersons,"Food, Beverages & Tobacco",Maumee,OH,no
+Keurig Dr Pepper,"Food, Beverages & Tobacco",Burlington,MA,no
+Universal Health Services,Health Care,King of Prussia,PA,no
+CSX,Transportation,Jacksonville,FL,no
+Henry Schein,Health Care,Melville,NY,no
+Sonic Automotive,Retailing,Charlotte,NC,no
+eBay,Technology,San Jose,CA,no
+Textron,Aerospace & Defense,Providence,RI,no
+Jones Financial (Edward Jones),Financials,Des Peres,MO,yes
+Community Health Systems,Health Care,Franklin,TN,no
+Mosaic,Chemicals,Tampa,FL,no
+Thor Industries,Motor Vehicles & Parts,Elkhart,IN,no
+Dick's Sporting Goods,Retailing,Coraopolis,PA,yes
+Newmont,Energy,Denver,CO,no
+Devon Energy,Energy,Oklahoma City,OK,no
+Warner Bros. Discovery,Media,New York,NY,no
+J.B. Hunt Transport Services,Transportation,Lowell,AR,no
+Alcoa,Materials,Pittsburgh,PA,no
+Peter Kiewit Sons',Engineering & Construction,Omaha,NE,no
+Aramark,Business Services,Philadelphia,PA,no
+Vistra,Energy,Irving,TX,no
+State Street,Financials,Boston,MA,no
+Unum Group,Financials,Chattanooga,TN,no
+Alleghany,Financials,New York,NY,no
+Boston Scientific,Health Care,Marlborough,MA,no
+Westlake,Chemicals,Houston,TX,no
+Entergy,Energy,New Orleans,LA,no
+International Flavors & Fragrances,Chemicals,New York,NY,no
+DaVita,Health Care,Denver,CO,no
+Mutual of Omaha Insurance,Financials,Omaha,NE,no
+Assurant,Financials,New York,NY,no
+Liberty Media,Media,Englewood,CO,no
+Hormel Foods,"Food, Beverages & Tobacco",Austin,MN,no
+Icahn Enterprises,Financials,Sunny Isles Beach,FL,no
+Republic Services,Business Services,Phoenix,AZ,no
+Mohawk Industries,Household Products,Calhoun,GA,no
+Conagra Brands,"Food, Beverages & Tobacco",Chicago,IL,no
+Norfolk Southern,Transportation,Atlanta,GA,no
+AES,Energy,Arlington,VA,no
+AGCO,Industrials,Duluth,GA,no
+Caesars Entertainment,"Hotels, Restaurants & Leisure",Reno,NV,no
+Equitable Holdings,Financials,New York,NY,no
+Advance Auto Parts,Retailing,Raleigh,NC,no
+Biogen,Health Care,Cambridge,MA,no
+Auto-Owners Insurance,Financials,Lansing,MI,no
+Booking Holdings,Technology,Norwalk,CT,no
+Amphenol,Technology,Wallingford,CT,no
+Quest Diagnostics,Health Care,Secaucus,NJ,no
+FirstEnergy,Energy,Akron,OH,no
+DCP Midstream,Energy,Denver,CO,no
+Ally Financial,Financials,Detroit,MI,no
+Delek US Holdings,Energy,Brentwood,TN,no
+Williams,Energy,Tulsa,OK,no
+Newell Brands,Household Products,Atlanta,GA,no
+Eastman Chemical,Chemicals,Kingsport,TN,no
+Air Products & Chemicals,Chemicals,Allentown,PA,no
+Thrivent Financial for Lutherans,Financials,Minneapolis,MN,yes
+Molson Coors Beverage,"Food, Beverages & Tobacco",Chicago,IL,no
+Interpublic Group,Business Services,New York,NY,no
+Weyerhaeuser,Materials,Seattle,WA,no
+Altice USA,Telecommunications,Long Island City,NY,no
+Raymond James Financial,Financials,St. Petersburg,FL,no
+EMCOR Group,Engineering & Construction,Norwalk,CT,no
+Eversource Energy,Energy,Springfield,MA,no
+Yum China Holdings,"Hotels, Restaurants & Leisure",Plano,TX,yes
+Asbury Automotive Group,Retailing,Duluth,GA,no
+Owens & Minor,Health Care,Mechanicsville,VA,no
+Public Service Enterprise Group,Energy,Newark,NJ,no
+United Rentals,Business Services,Stamford,CT,no
+MGM Resorts International,"Hotels, Restaurants & Leisure",Las Vegas,NV,no
+Ryder System,Transportation,Miami,FL,no
+Intuit,Technology,Mountain View,CA,no
+Cincinnati Financial,Financials,Fairfield,OH,no
+Erie Insurance Group,Financials,Erie,PA,no
+Univar Solutions,Wholesalers,Downers Grove,IL,no
+Huntington Ingalls Industries,Aerospace & Defense,Newport News,VA,no
+W.R. Berkley,Financials,Greenwich,CT,no
+Western & Southern Financial Group,Financials,Cincinnati,OH,no
+Insight Enterprises,Technology,Tempe,AZ,yes
+News Corp.,Media,New York,NY,no
+American Tower,Financials,Boston,MA,no
+Old Republic International,Financials,Chicago,IL,no
+Burlington Stores,Retailing,Burlington,NJ,no
+Avis Budget Group,Retailing,Parsippany,NJ,no
+ODP,Retailing,Boca Raton,FL,no
+VF Corp.,Apparel,Denver,CO,no
+Bed Bath & Beyond,Retailing,Union,NJ,yes
+Seaboard,"Food, Beverages & Tobacco",Merriam,KS,no
+First American Financial,Financials,Santa Ana,CA,no
+Intercontinental Exchange,Financials,Atlanta,GA,no
+PVH,Apparel,New York,NY,no
+Apollo Global Management,Financials,New York,NY,no
+Jefferies Financial Group,Financials,New York,NY,no
+Hershey,"Food, Beverages & Tobacco",Hershey,PA,yes
+NVR,Engineering & Construction,Reston,VA,no
+Foot Locker,Retailing,New York,NY,yes
+Dana,Motor Vehicles & Parts,Maumee,OH,no
+SpartanNash,Wholesalers,Byron Center,MI,no
+Olin,Chemicals,Clayton,MO,no
+Chewy,Retailing,Dania Beach,FL,no
+Jackson Financial,Financials,Lansing,MI,yes
+Activision Blizzard,Media,Santa Monica,CA,no
+Toll Brothers,Engineering & Construction,Fort Washington,PA,no
+Carlyle Group,Financials,Washington,DC,no
+Graybar Electric,Wholesalers,St. Louis,MO,yes
+Ovintiv,Energy,Denver,CO,no
+UFP Industries,Materials,Grand Rapids,MI,no
+Ulta Beauty,Retailing,Bolingbrook,IL,no
+Constellation Brands,"Food, Beverages & Tobacco",Victor,NY,no
+Expedia Group,Retailing,Seattle,WA,no
+CommScope Holding,Technology,Hickory,NC,no
+Celanese,Chemicals,Irving,TX,yes
+Global Payments,Business Services,Atlanta,GA,no
+Owens Corning,Materials,Toledo,OH,no
+Campbell Soup,"Food, Beverages & Tobacco",Camden,NJ,no
+Huntsman,Chemicals,The Woodlands,TX,no
+Franklin Resources,Financials,San Mateo,CA,yes
+Avery Dennison,Materials,Glendale,CA,no
+Masco,Household Products,Livonia,MI,no
+CenterPoint Energy,Energy,Houston,TX,no
+Fifth Third Bancorp,Financials,Cincinnati,OH,no
+WEC Energy Group,Energy,Milwaukee,WI,no
+S&P Global,Business Services,New York,NY,no
+FM Global,Financials,Johnston,RI,no
+Polaris,Transportation,Medina,MN,no
+Williams-Sonoma,Retailing,San Francisco,CA,yes
+Autoliv,Motor Vehicles & Parts,Auburn Hills,MI,no
+Arthur J. Gallagher,Financials,Rolling Meadows,IL,no
+Motorola Solutions,Technology,Chicago,IL,no
+Zillow Group,Technology,Seattle,WA,no
+Opendoor Technologies,Technology,San Francisco,CA,no
+J.M. Smucker,"Food, Beverages & Tobacco",Orrville,OH,no
+Anywhere Real Estate,Financials,Madison,NJ,no
+Oshkosh,Industrials,Oshkosh,WI,no
+MasTec,Engineering & Construction,Coral Gables,FL,no
+GXO Logistics,Transportation,Greenwich,CT,no
+APA,Energy,Houston,TX,no
+Boise Cascade,Wholesalers,Boise,ID,no
+Dover,Industrials,Downers Grove,IL,no
+Genworth Financial,Financials,Richmond,VA,no
+Bath & Body Works,Retailing,Columbus,OH,yes
+Booz Allen Hamilton Holding,Technology,McLean,VA,no
+Coinbase Global,Financials,Wilmington,DE,no
+Zimmer Biomet Holdings,Health Care,Warsaw,IN,no
+Westinghouse Air Brake Technologies,Industrials,Pittsburgh,PA,no
+Zoetis,Health Care,Parsippany,NJ,yes
+Packaging Corp. of America,Materials,Lake Forest,IL,no
+LPL Financial Holdings,Financials,San Diego,CA,no
+T. Rowe Price,Financials,Baltimore,MD,no
+Fortune Brands Home & Security,Household Products,Deerfield,IL,no
+Casey's General Stores,Retailing,Ankeny,IA,no
+A-Mark Precious Metals,Wholesalers,El Segundo,CA,no
+Hess,Energy,New York,NY,no
+Vertex Pharmaceuticals,Health Care,Boston,MA,yes
+KeyCorp,Financials,Cleveland,OH,no
+Chipotle,"Hotels, Restaurants & Leisure",Newport Beach,CA,no
+CMS Energy,Energy,Jackson,MI,no
+Arconic,Materials,Pittsburgh,PA,no
+Taylor Morrison Home,Engineering & Construction,Scottsdale,AZ,yes
+American Financial Group,Financials,Cincinnati,OH,no
+UGI,Energy,King of Prussia,PA,no
+Science Applications International,Technology,Reston,VA,yes
+Avantor,Technology,Radnor,PA,no
+Hanesbrands,Apparel,Winston-Salem,NC,no
+Clorox,Household Products,Oakland,CA,yes
+KBR,Engineering & Construction,Houston,TX,no
+TravelCenters of America,Retailing,Westlake,OH,no
+Hertz Global Holdings,Retailing,Estero,FL,no
+Analog Devices,Technology,Wilmington,MA,no
+Securian Financial Group,Financials,St. Paul,MN,no
+Darden Restaurants,"Hotels, Restaurants & Leisure",Orlando,FL,no
+NCR,Technology,Atlanta,GA,no
+Graphic Packaging Holding,Materials,Atlanta,GA,no
+Brighthouse Financial,Financials,Charlotte,NC,no
+PPL,Energy,Allentown,PA,no
+Cintas,Business Services,Cincinnati,OH,no
+Xerox Holdings,Technology,Norwalk,CT,no
+Rockwell Automation,Industrials,Milwaukee,WI,no
+Citizens Financial Group,Financials,Providence,RI,no
+KLA,Technology,Milpitas,CA,no
+Camping World Holdings,Retailing,Lincolnshire,IL,no
+Ingredion,"Food, Beverages & Tobacco",Westchester,IL,no
+Veritiv,Wholesalers,Atlanta,GA,no
+Beacon Roofing Supply,Wholesalers,Herndon,VA,no
+Diamondback Energy,Energy,Midland,TX,no
+Victoria's Secret,Retailing,Reynoldsburg,OH,no
+Academy Sports and Outdoors,Retailing,Katy,TX,no
+Sanmina,Technology,San Jose,CA,no
+ON Semiconductor,Technology,Phoenix,AZ,no
+Commercial Metals,Materials,Irving,TX,yes
+EnLink Midstream,Energy,Dallas,TX,no
+Southwestern Energy,Energy,Spring,TX,no
+Equinix,Financials,Redwood City,CA,no
+Dillard&#8217;s,Retailing,Little Rock,AR,no
+Regions Financial,Financials,Birmingham,AL,no
+Yum Brands,"Hotels, Restaurants & Leisure",Louisville,KY,no
+Landstar System,Transportation,Jacksonville,FL,no
+CF Industries Holdings,Chemicals,Deerfield,IL,no
+Northern Trust,Financials,Chicago,IL,no
+Robert Half International,Business Services,Menlo Park,CA,no
+Compass,Technology,New York,NY,no
+Hasbro,Household Products,Pawtucket,RI,no
+Roper Technologies,Technology,Sarasota,FL,no
+ARKO,Retailing,Richmond,VA,no
+Frontier Communications,Telecommunications,Norwalk,CT,no
+Ameren,Energy,St. Louis,MO,no
+O-I Glass,Materials,Perrysburg,OH,no
+Chemours,Chemicals,Wilmington,DE,no
+Crown Castle International,Financials,Houston,TX,no
+Agilent Technologies,Technology,Santa Clara,CA,no
+McCormick,"Food, Beverages & Tobacco",Hunt Valley,MD,no
+Skechers U.S.A.,Apparel,Manhattan Beach,CA,no
+Watsco,Wholesalers,Miami,FL,no
+Live Nation Entertainment,Media,Beverly Hills,CA,no
+Lululemon athletica,Retailing,Sumner,WA,no
+ABM Industries,Business Services,New York,NY,no
+Post Holdings,"Food, Beverages & Tobacco",St. Louis,MO,no
+Moody's,Business Services,New York,NY,no
+Select Medical Holdings,Health Care,Mechanicsburg,PA,no
+Alaska Air Group,Transportation,Seattle,WA,no
+Big Lots,Retailing,Columbus,OH,no
+Amkor Technology,Technology,Tempe,AZ,no
+Sinclair Broadcast Group,Media,Hunt Valley,MD,no
+RPM International,Chemicals,Medina,OH,no
+M&T Bank,Financials,Buffalo,NY,no
+Sprouts Farmers Market,Food & Drug Stores,Phoenix,AZ,no
+Huntington Bancshares,Financials,Columbus,OH,no
+CACI International,Technology,Reston,VA,no
+JetBlue Airways,Transportation,Long Island City,NY,no
+SVB Financial Group,Financials,Santa Clara,CA,no
+Fastenal,Wholesalers,Winona,MN,no
+GameStop,Retailing,Grapevine,TX,no
+Knight-Swift Transportation Holdings,Transportation,Phoenix,AZ,no
+Airbnb,Technology,San Francisco,CA,no
+Patterson,Health Care,St. Paul,MN,no
+PENN Entertainment,"Hotels, Restaurants & Leisure",Wyomissing,PA,no
+ServiceNow,Technology,Santa Clara,CA,no
+Nasdaq,Financials,New York,NY,yes
+Brunswick,Transportation,Mettawa,IL,no
+Resideo Technologies,Materials,Scottsdale,AZ,no
+Chesapeake Energy,Energy,Oklahoma City,OK,no
+Petco Health and Wellness,Retailing,San Diego,CA,no
+Kemper,Financials,Chicago,IL,no
+Hilton Worldwide Holdings,"Hotels, Restaurants & Leisure",McLean,VA,no
+Cerner,Health Care,North Kansas City,MO,no
+Levi Strauss,Apparel,San Francisco,CA,no
+Tapestry,Apparel,New York,NY,yes
+NetApp,Technology,San Jose,CA,no
+KB Home,Engineering & Construction,Los Angeles,CA,no
+Continental Resources,Energy,Oklahoma City,OK,no
+Intuitive Surgical,Health Care,Sunnyvale,CA,no
+Under Armour,Apparel,Baltimore,MD,no
+MDU Resources Group,Energy,Bismarck,ND,no
+Silgan Holdings,Materials,Stamford,CT,no
+Ryerson Holding,Materials,Chicago,IL,no
+Ingersoll Rand,Industrials,Davidson,NC,no
+Hologic,Health Care,Marlborough,MA,no
+Electronic Arts,Media,Redwood City,CA,no
+Zebra Technologies,Industrials,Lincolnshire,IL,no
+Coty,Household Products,New York,NY,yes
+Schneider National,Transportation,Green Bay,WI,no
+Sonoco Products,Materials,Hartsville,SC,no
+Concentrix,Technology,Fremont,CA,no
+Evergy,Energy,Kansas City,MO,no
+Cornerstone Building Brands,Materials,Cary,NC,yes
+Coca-Cola Consolidated,"Food, Beverages & Tobacco",Charlotte,NC,no
+Greif,Materials,Delaware,OH,no
+Vulcan Materials,Materials,Birmingham,AL,no
+Ametek,Technology,Berwyn,PA,no
+Monster Beverage,"Food, Beverages & Tobacco",Corona,CA,no
+Sealed Air,Materials,Charlotte,NC,no
+NOV,Energy,Houston,TX,no
+Las Vegas Sands,"Hotels, Restaurants & Leisure",Las Vegas,NV,no
+Martin Marietta Materials,Materials,Raleigh,NC,no
+Marathon Oil,Energy,Houston,TX,no
+Mattel,Household Products,El Segundo,CA,no
+Microchip Technology,Technology,Chandler,AZ,no
+Harley-Davidson,Transportation,Milwaukee,WI,no
+Telephone & Data Systems,Telecommunications,Chicago,IL,no
+ADT,Business Services,Boca Raton,FL,no
+First Republic Bank,Financials,San Francisco,CA,no
+Warner Music Group,Media,New York,NY,no
+Pool,Wholesalers,Covington,LA,no
+Old Dominion Freight Line,Transportation,Thomasville,NC,no
+Fortive,Industrials,Everett,WA,no
+MDC Holdings,Engineering & Construction,Denver,CO,no
+NGL Energy Partners,Energy,Tulsa,OK,no
+Edwards Lifesciences,Health Care,Irvine,CA,no
+Hanover Insurance Group,Financials,Worcester,MA,no
+Syneos Health,Health Care,Morrisville,NC,yes
+Xylem,Industrials,Washington,DC,no
+Church & Dwight,Household Products,Ewing,NJ,no
+American Axle & Manufacturing,Motor Vehicles & Parts,Detroit,MI,no
+Meritage Homes,Engineering & Construction,Scottsdale,AZ,no
+Workday,Technology,Pleasanton,CA,no
+Rush Enterprises,Retailing,New Braunfels,TX,no
+Yellow,Transportation,Nashville,TN,no
+Encompass Health,Health Care,Birmingham,AL,no
+Simon Property Group,Financials,Indianapolis,IN,no
+Globe Life,Financials,McKinney,TX,no
+Skyworks Solutions,Technology,Irvine,CA,no
+Endeavor Group Holdings,Media,Beverly Hills,CA,no
+Twitter,Technology,San Francisco,CA,no
+Leggett & Platt,Household Products,Carthage,MO,no
+Western Union,Business Services,Denver,CO,no
+PerkinElmer,Health Care,Waltham,MA,no
+SS&C Technologies Holdings,Technology,Windsor,CT,no
+CUNA Mutual Group,Financials,Madison,WI,no
+FMC,Chemicals,Philadelphia,PA,no
+Carlisle,Materials,Scottsdale,AZ,no
+American Eagle Outfitters,Retailing,Pittsburgh,PA,no
+Core & Main,Wholesalers,St. Louis,MO,no
+Vertiv Holdings,Industrials,Columbus,OH,no
+Broadridge Financial Solutions,Business Services,Lake Success,NY,no
+Ingles Markets,Food & Drug Stores,Black Mountain,NC,no
+TPG,Financials,Fort Worth,TX,no
+Insperity,Business Services,Kingwood,TX,no
+Howmet Aerospace,Aerospace & Defense,Pittsburgh,PA,no
+R.R. Donnelley & Sons,Media,Chicago,IL,no
+Keysight Technologies,Technology,Santa Rosa,CA,no
+Tempur Sealy International,Household Products,Lexington,KY,no
+Scotts Miracle-Gro,Chemicals,Marysville,OH,no
+Equifax,Business Services,Atlanta,GA,no
+Kelly Services,Business Services,Troy,MI,no
+NiSource,Energy,Merrillville,IN,no
+OneMain Holdings,Financials,Evansville,IN,no
+DoorDash,Technology,San Francisco,CA,no
+Avient,Chemicals,Avon Lake,OH,no
+Sanderson Farms,"Food, Beverages & Tobacco",Laurel,MS,no
+TransDigm Group,Aerospace & Defense,Cleveland,OH,no
+Stifel Financial,Financials,St. Louis,MO,no
+JELD-WEN Holding,Materials,Charlotte,NC,no
+Ares Management,Financials,Los Angeles,CA,no
+Elanco Animal Health,Health Care,Greenfield,IN,no
+Prologis,Financials,San Francisco,CA,no
+Welltower,Financials,Toledo,OH,no
+Darling Ingredients,"Food, Beverages & Tobacco",Irving,TX,no
+Juniper Networks,Technology,Sunnyvale,CA,no
+Gartner,Technology,Stamford,CT,no
+Par Pacific Holdings,Energy,Houston,TX,no
+Hubbell,Industrials,Shelton,CT,no
+CME Group,Financials,Chicago,IL,no
+Nexstar Media Group,Media,Irving,TX,no
+Tutor Perini,Engineering & Construction,Sylmar,CA,no
+Antero Resources,Energy,Denver,CO,no
+Teledyne Technologies,Aerospace & Defense,Thousand Oaks,CA,no
+Snap-on,Industrials,Kenosha,WI,no
+Rent-A-Center,Retailing,Plano,TX,no
+Covetrus,Health Care,Portland,ME,no
+Crestwood Equity Partners,Energy,Houston,TX,no
+Louisiana-Pacific,Materials,Nashville,TN,no
+Urban Outfitters,Retailing,Philadelphia,PA,no
+Penn Mutual Life Insurance,Financials,Horsham,PA,no
+Amerco,Transportation,Reno,NV,no
+TriNet Group,Business Services,Dublin,CA,no
+Sentry Insurance Group,Financials,Stevens Point,WI,no
+Illumina,Technology,San Diego,CA,no
+Iron Mountain,Business Services,Boston,MA,no
+LCI Industries,Motor Vehicles & Parts,Elkhart,IN,no
+Marvell Technology,Technology,Wilmington,DE,no
+PennyMac Financial Services,Financials,Westlake Village,CA,no
+Digital Realty Trust,Financials,Austin,TX,no
+TreeHouse Foods,"Food, Beverages & Tobacco",Oak Brook,IL,no
+Ralph Lauren,Apparel,New York,NY,no
+Mattress Firm Group,Retailing,Houston,TX,no
+American National Group,Financials,Galveston,TX,no
+Autodesk,Technology,San Rafael,CA,no
+Domino's Pizza,"Hotels, Restaurants & Leisure",Ann Arbor,MI,no
+ASGN,Business Services,Glen Allen,VA,no
+Flowers Foods,"Food, Beverages & Tobacco",Thomasville,GA,no
+BlueLinx Holdings,Wholesalers,Marietta,GA,no
+Palo Alto Networks,Technology,Santa Clara,CA,no
+Maximus,Technology,Reston,VA,no
+Dentsply Sirona,Health Care,Charlotte,NC,no
+Hub Group,Transportation,Oak Brook,IL,no
+Bread Financial Holdings,Business Services,Columbus,OH,no
+Voya Financial,Financials,New York,NY,no
+Weis Markets,Food & Drug Stores,Sunbury,PA,no
+Century Communities,Engineering & Construction,Greenwood Village,CO,no
+Synopsys,Technology,Mountain View,CA,no
+Brink's,Business Services,Richmond,VA,no
+Lennox International,Industrials,Richardson,TX,no
+Service Corp. International,Business Services,Houston,TX,no
+Conduent,Business Services,Florham Park,NJ,no
+Timken,Industrials,North Canton,OH,no
+Domtar,Materials,Fort Mill,SC,no
+Bloomin' Brands,"Hotels, Restaurants & Leisure",Tampa,FL,no
+CNO Financial Group,Financials,Carmel,IN,no
+Snap,Technology,Santa Monica,CA,no
+Zoom Video Communications,Technology,San Jose,CA,no
+Patrick Industries,Materials,Elkhart,IN,no
+Paychex,Business Services,Rochester,NY,no
+Atlas Air Worldwide Holdings,Transportation,Purchase,NY,no
+Bright Health Group,Health Care,Minneapolis,MN,no
+Peloton Interactive,"Hotels, Restaurants & Leisure",New York,NY,no
+Country Financial,Financials,Bloomington,IL,no
+Qorvo,Technology,Greensboro,NC,no
+Catalent,Health Care,Somerset,NJ,no
+Mercury General,Financials,Los Angeles,CA,no
+AMN Healthcare Services,Health Care,Dallas,TX,yes
+Tri Pointe Homes,Engineering & Construction,Incline Village,NV,no
+ArcBest,Transportation,Fort Smith,AR,yes
+Toro,Industrials,Bloomington,MN,no
+Spirit AeroSystems Holdings,Aerospace & Defense,Wichita,KS,no
+Align Technology,Health Care,Tempe,AZ,no
+loanDepot,Financials,Foothill Ranch,CA,no
+APi Group,Engineering & Construction,New Brighton,MN,no
+American Water Works,Energy,Camden,NJ,yes
+Matson,Transportation,Honolulu,HI,no
+Diebold Nixdorf,Technology,Hudson,OH,no
+Marriott Vacations Worldwide,"Hotels, Restaurants & Leisure",Orlando,FL,no
+Terex,Industrials,Norwalk,CT,no
+Sally Beauty Holdings,Retailing,Denton,TX,yes
+Enovis,Industrials,Wilmington,DE,no
+IAC,Technology,New York,NY,no
+Meritor,Motor Vehicles & Parts,Troy,MI,no
+Ventas,Financials,Chicago,IL,yes
+GoDaddy,Technology,Tempe,AZ,no
+Regal Rexnord,Industrials,Beloit,WI,no
+Puget Energy,Energy,Bellevue,WA,yes
+Clean Harbors,Business Services,Norwell,MA,no
+Pinnacle West Capital,Energy,Phoenix,AZ,no
+eXp World Holdings,Financials,Bellingham,WA,no
+Mueller Industries,Industrials,Collierville,TN,no
+Wynn Resorts,"Hotels, Restaurants & Leisure",Las Vegas,NV,no
+RH,Retailing,Corte Madera,CA,no
+EPAM Systems,Technology,Newtown,PA,no
+M/I Homes,Engineering & Construction,Columbus,OH,no
+Generac Holdings,Industrials,Waukesha,WI,no
+Mettler-Toledo International,Technology,Columbus,OH,no
+Abercrombie & Fitch,Retailing,New Albany,OH,yes
+Teradyne,Technology,North Reading,MA,no
+American Equity Investment Life Holding,Financials,West Des Moines,IA,no
+Southwest Gas Holdings,Energy,Las Vegas,NV,yes
+Pitney Bowes,Technology,Stamford,CT,no
+Lamb Weston Holdings,"Food, Beverages & Tobacco",Eagle,ID,no
+Alliant Energy,Energy,Madison,WI,no
+Resolute Forest Products,Materials,Calhoun,TN,no
+Parsons,Aerospace & Defense,Centreville,VA,yes
+Trimble,Technology,Sunnyvale,CA,no
+OGE Energy,Energy,Oklahoma City,OK,no
+Garrett Motion,Motor Vehicles & Parts,Plymouth,MI,no
+Winnebago Industries,Motor Vehicles & Parts,Eden Prairie,MN,no
+Ciena,Technology,Hanover,MD,no
+PriceSmart,Retailing,San Diego,CA,yes
+Advantage Solutions,Business Services,Irvine,CA,yes
+H&R Block,Financials,Kansas City,MO,no
+iHeartMedia,Media,San Antonio,TX,no
+Super Micro Computer,Technology,San Jose,CA,no
+Flowserve,Industrials,Irving,TX,no
+Charles River Laboratories International,Health Care,Wilmington,MA,no
+A.O. Smith,Industrials,Milwaukee,WI,no
+Rithm Capital,Financials,New York,NY,no
+Medical Mutual of Ohio,Financials,Cleveland,OH,no
+Granite Construction,Engineering & Construction,Watsonville,CA,no
+Valmont Industries,Materials,Omaha,NE,no
+Sprague Resources,Energy,Portsmouth,NH,no
+Primoris Services,Engineering & Construction,Dallas,TX,no
+Cboe Global Markets,Financials,Chicago,IL,no
+Carter's,Apparel,Atlanta,GA,no
+TopBuild,Engineering & Construction,Daytona Beach,FL,no
+SiteOne Landscape Supply,Wholesalers,Roswell,GA,no
+Texas Roadhouse,"Hotels, Restaurants & Leisure",Louisville,KY,no
+Akamai Technologies,Technology,Cambridge,MA,no
+Brown-Forman,"Food, Beverages & Tobacco",Louisville,KY,no
+Acuity Brands,Industrials,Atlanta,GA,no
+Navient,Financials,Wilmington,DE,no
+Coterra Energy,Energy,Houston,TX,no
+Option Care Health,Health Care,Bannockburn,IL,no
+Floor & Decor Holdings,Retailing,Atlanta,GA,no
+Public Storage,Financials,Glendale,CA,no
+Cabot,Chemicals,Boston,MA,no
+Crane Holdings,Industrials,Stamford,CT,no
+Atmos Energy,Energy,Dallas,TX,no
+Selective Insurance Group,Financials,Branchville,NJ,no
+Take-Two Interactive Software,Media,New York,NY,no
+Boyd Gaming,"Hotels, Restaurants & Leisure",Las Vegas,NV,no
+Plexus,Technology,Neenah,WI,no
+ScanSource,Wholesalers,Greenville,SC,no
+Franchise Group,Retailing,Delaware,OH,no
+NLV Financial,Financials,Montpelier,VT,no
+CrossAmerica Partners,Energy,Allentown,PA,no
+Mr. Cooper Group,Financials,Coppell,TX,no
+Fortinet,Technology,Sunnyvale,CA,no
+Brinker International,"Hotels, Restaurants & Leisure",Dallas,TX,no
+Albemarle,Chemicals,Charlotte,NC,no
+Peabody Energy,Energy,St. Louis,MO,no
+Light & Wonder,"Hotels, Restaurants & Leisure",Las Vegas,NV,no
+Evercore,Financials,New York,NY,no
+Stewart Information Services,Financials,Houston,TX,no
+Central Garden & Pet,Household Products,Walnut Creek,CA,no
+GMS,Wholesalers,Tucker,GA,no
+H.B. Fuller,Chemicals,St. Paul,MN,no
+Middleby,Industrials,Elgin,IL,no
+Renewable Energy Group,Energy,Ames,IA,yes
+MSC Industrial Direct,Wholesalers,Melville,NY,no
+Vishay Intertechnology,Technology,Malvern,PA,no
+Applied Industrial Technologies,Wholesalers,Cleveland,OH,no
+Lincoln Electric Holdings,Industrials,Cleveland,OH,no
+First Horizon,Financials,Memphis,TN,no
+Spirit Airlines,Transportation,Miramar,FL,no
+AptarGroup,Materials,Crystal Lake,IL,no
+Citrix Systems,Technology,Fort Lauderdale,FL,no
+IDEXX Laboratories,Health Care,Westbrook,ME,no
+Tetra Tech,Engineering & Construction,Pasadena,CA,no
+Lyft,Technology,San Francisco,CA,no
+Gannett,Media,McLean,VA,no
+ResMed,Health Care,San Diego,CA,no
+Designer Brands,Retailing,Columbus,OH,no
+Graham Holdings,Business Services,Arlington,VA,no
+Vroom,Retailing,New York,NY,no
+Worthington Industries,Materials,Columbus,OH,no
+Calumet Specialty Products Partners,Energy,Indianapolis,IN,no
+Xilinx,Technology,San Jose,CA,yes
+TransUnion,Business Services,Chicago,IL,no
+Travel + Leisure,"Hotels, Restaurants & Leisure",Orlando,FL,no
+Topgolf Callaway Brands,"Hotels, Restaurants & Leisure",Carlsbad,CA,no
+Dycom Industries,Engineering & Construction,Palm Beach Gardens,FL,no
+Columbia Sportswear,Apparel,Portland,OR,no
+Coherent,Technology,Saxonburg,PA,no
+Change Healthcare,Health Care,Nashville,TN,yes
+Grocery Outlet Holding,Food & Drug Stores,Emeryville,CA,no
+AMC Networks,Media,New York,NY,yes
+Hyster-Yale Materials Handling,Industrials,Cleveland,OH,no
+ChampionX,Energy,The Woodlands,TX,no
+Comfort Systems USA,Engineering & Construction,Houston,TX,no
+EQT,Energy,Pittsburgh,PA,no
+Brown & Brown,Financials,Daytona Beach,FL,no
+LGI Homes,Engineering & Construction,The Woodlands,TX,no
+Hyatt Hotels,"Hotels, Restaurants & Leisure",Chicago,IL,no
+Comerica,Financials,Dallas,TX,no
+Energizer Holdings,Household Products,St. Louis,MO,no
+Hill-Rom Holdings,Health Care,Chicago,IL,no
+Rackspace Technology,Technology,San Antonio,TX,no
+Verisk Analytics,Business Services,Jersey City,NJ,no
+Spectrum Brands Holdings,Household Products,Middleton,WI,no
+Euronet Worldwide,Business Services,Leawood,KS,no
+TEGNA,Media,Tysons,VA,no
+Vontier,Technology,Raleigh,NC,no
+Cadence Design Systems,Technology,San Jose,CA,no
+Incyte,Health Care,Wilmington,DE,no
+Match Group,Technology,Dallas,TX,no
+Valvoline,Chemicals,Lexington,KY,no
+EnerSys,Industrials,Reading,PA,no
+Avaya Holdings,Technology,Durham,NC,no
+UWM Holdings,Financials,Pontiac,MI,no
+Zions Bancorp.,Financials,Salt Lake City,UT,no
+Quad/Graphics,Media,Sussex,WI,no
+MKS Instruments,Technology,Andover,MA,no
+Arista Networks,Technology,Santa Clara,CA,yes
+Interactive Brokers Group,Financials,Greenwich,CT,no
+Range Resources,Energy,Fort Worth,TX,no
+Atkore,Industrials,Harvey,IL,no
+Cheesecake Factory,"Hotels, Restaurants & Leisure",Calabasas Hills,CA,no
+First Solar,Energy,Tempe,AZ,no
+Bio-Rad Laboratories,Technology,Hercules,CA,no
+Cooper Cos.,Health Care,San Ramon,CA,no
+Envista Holdings,Health Care,Brea,CA,no
+Alight,Business Services,Lincolnshire,IL,no
+Newmark Group,Financials,New York,NY,no
+PC Connection,Wholesalers,Merrimack,NH,no
+Host Hotels & Resorts,Financials,Bethesda,MD,no
+Boston Properties,Financials,Boston,MA,no
+Western Midstream Partners,Energy,The Woodlands,TX,no
+Magellan Midstream Partners,Energy,Tulsa,OK,no
+Hillenbrand,Industrials,Batesville,IN,yes
+Donaldson,Industrials,Minneapolis,MN,no
+Moog,Aerospace & Defense,East Aurora,NY,no
+Hawaiian Electric Industries,Energy,Honolulu,HI,no
+Five Below,Retailing,Philadelphia,PA,no
+Twilio,Technology,San Francisco,CA,no
+Univision Communciations,Media,New York,NY,no
+Annaly Capital Management,Financials,New York,NY,no
+Fleetcor Technologies,Business Services,Atlanta,GA,no
+West Pharmaceutical Services,Health Care,Exton,PA,no
+Green Plains,Energy,Omaha,NE,no
+Cracker Barrel Old Country Store,"Hotels, Restaurants & Leisure",Lebanon,TN,yes
+Virtu Financial,Financials,New York,NY,no
+Teleflex,Health Care,Wayne,PA,no
+Zynga,Media,San Francisco,CA,no
+ATI,Materials,Pittsburgh,PA,no
+AppLovin,Technology,Palo Alto,CA,no
+Waters,Technology,Milford,MA,no
+Mutual of America Life Insurance,Financials,New York,NY,no
+Hovnanian Enterprises,Engineering & Construction,Matawan,NJ,no
+Amica Mutual Insurance,Financials,Lincoln,RI,no
+Caleres,Retailing,St. Louis,MO,yes
+FTI Consulting,Business Services,Washington,DC,no
+Overstock.com,Retailing,Midvale,UT,no
+Visteon,Motor Vehicles & Parts,Van Buren Township,MI,no
+G-III Apparel Group,Apparel,New York,NY,no
+ITT,Industrials,White Plains,NY,no
+IDEX,Industrials,Northbrook,IL,no
+Popular,Financials,Hato Rey,PR,no
+Roku,Media,San Jose,CA,no
+Schnitzer Steel Industries,Materials,Portland,OR,yes
+Brookdale Senior Living,Health Care,Brentwood,TN,yes
+Werner Enterprises,Transportation,Omaha,NE,no
+Americold Realty Trust,Financials,Atlanta,GA,no
+SkyWest,Transportation,St. George,UT,no
+Primerica,Financials,Duluth,GA,no
+McAfee,Technology,San Jose,CA,no
+Nu Skin Enterprises,Household Products,Provo,UT,no
+Copart,Retailing,Dallas,TX,no
+PROG Holdings,Financials,Draper,UT,no
+Splunk,Technology,San Francisco,CA,no
+MRC Global,Energy,Houston,TX,no
+Stericycle,Business Services,Bannockburn,IL,yes
+Maxim Integrated Products,Technology,San Jose,CA,no
+Ensign Group,Health Care,San Juan Capistrano,CA,no
+SM Energy,Energy,Denver,CO,no
+Kaiser Aluminum,Materials,Foothill Ranch,CA,no
+Federated Mutual Insurance,Financials,Owatonna,MN,no
+F5,Technology,Seattle,WA,no
+Steelcase,Household Products,Grand Rapids,MI,yes
+Encore Wire,Industrials,McKinney,TX,no
+Guess,Retailing,Los Angeles,CA,no
+Playtika Holding,Media,Henderson,NV,no
+Pinterest,Technology,San Francisco,CA,no
+WeWork,Financials,New York,NY,no
+ManTech International,Technology,Herndon,VA,no
+BrightView Holdings,Business Services,Blue Bell,PA,no
+NortonLifeLock,Technology,Tempe,AZ,no
+Deckers Outdoor,Apparel,Goleta,CA,no
+Griffon,Materials,New York,NY,no
+AMC Entertainment Holdings,Media,Leawood,KS,no
+Curtiss-Wright,Industrials,Davidson,NC,yes
+MYR Group,Engineering & Construction,Henderson,CO,no
+Kontoor Brands,Apparel,Greensboro,NC,no
+Liberty Energy,Energy,Denver,CO,no
+Knights of Columbus,Financials,New Haven,CT,no
+AdaptHealth,Health Care,Plymouth Meeting,PA,no
+MillerKnoll,Household Products,Zeeland,MI,yes
+Equity Residential,Financials,Chicago,IL,no
+DexCom,Health Care,San Diego,CA,no
+Rollins,Business Services,Atlanta,GA,no
+Genesco,Retailing,Nashville,TN,yes
+Bruker,Technology,Billerica,MA,no
+Joann,Retailing,Hudson,OH,no
+Wolverine World Wide,Apparel,Rockford,MI,no
+Gray Television,Media,Atlanta,GA,no
+Affiliated Managers Group,Financials,West Palm Beach,FL,no
+Summit Materials,Materials,Denver,CO,yes
+SLM,Financials,Newark,DE,no
+Belden,Industrials,St. Louis,MO,no
+Allison Transmission Holdings,Motor Vehicles & Parts,Indianapolis,IN,no
+Element Solutions,Chemicals,Fort Lauderdale,FL,no
+Portland General Electric,Energy,Portland,OR,yes
+REV Group,Motor Vehicles & Parts,Brookfield,WI,no
+Acadia Healthcare,Health Care,Franklin,TN,no
+Alexandria Real Estate Equities,Financials,Pasadena,CA,no
+Nordson,Industrials,Westlake,OH,no
+NewMarket,Chemicals,Richmond,VA,no
+Ohio National Mutual,Financials,Cincinnati,OH,yes
+Stepan,Chemicals,Northbrook,IL,no
+Valhi,Chemicals,Dallas,TX,no
+Hilton Grand Vacations,"Hotels, Restaurants & Leisure",Orlando,FL,no
+Cooper-Standard Holdings,Motor Vehicles & Parts,Northville,MI,no
+Etsy,Technology,Brooklyn,NY,no
+Crocs,Apparel,Broomfield,CO,no
+Olympic Steel,Materials,Highland Hills,OH,no
+Signature Bank,Financials,New York,NY,no
+SBA Communications,Financials,Boca Raton,FL,no
+Murphy Oil,Energy,Houston,TX,no
+Entegris,Technology,Billerica,MA,no
+AvalonBay Communities,Financials,Arlington,VA,no
+Saia,Transportation,Johns Creek,GA,no
+E.W. Scripps,Media,Cincinnati,OH,no
+TTEC Holdings,Technology,Englewood,CO,no
+Sun Communities,Financials,Southfield,MI,no
+Alpha Metallurgical Resources,Energy,Bristol,TN,no
+GEO Group,Business Services,Boca Raton,FL,no
+Viasat,Technology,Carlsbad,CA,no
+Benchmark Electronics,Technology,Tempe,AZ,no
+Kar Auction Services,Wholesalers,Carmel,IN,no
+TTM Technologies,Technology,Santa Ana,CA,no
+Kirby,Transportation,Houston,TX,no
+Woodward,Aerospace & Defense,Fort Collins,CO,no
+Clear Channel Outdoor Holdings,Business Services,San Antonio,TX,no
+Spire,Energy,St. Louis,MO,yes
+Vista Outdoor,Business Services,Anoka,MN,no
+Surgery Partners,Health Care,Brentwood,TN,no
+LHC Group,Health Care,Lafayette,LA,no
+Amedisys,Health Care,Baton Rouge,LA,no
+Century Aluminum,Materials,Chicago,IL,no
+Arch Resources,Energy,St. Louis,MO,no
+Aerojet Rocketdyne Holdings,Aerospace & Defense,El Segundo,CA,yes
+Sleep Number,Retailing,Minneapolis,MN,yes
+HNI,Household Products,Muscatine,IA,no
+Pure Storage,Technology,Mountain View,CA,no
+TrueBlue,Business Services,Tacoma,WA,no
+Party City Holdco,Retailing,Elmsford,NY,no
+Dun & Bradstreet Holdings,Business Services,Jacksonville,FL,no
+Dropbox,Technology,San Francisco,CA,no
+New Jersey Resources,Energy,Wall,NJ,no
+Acushnet Holdings,"Hotels, Restaurants & Leisure",Fairhaven,MA,no
+Harsco,Business Services,Camp Hill,PA,no
+Beazer Homes USA,Engineering & Construction,Atlanta,GA,no
+Chemed,Health Care,Cincinnati,OH,no
+Genesis Energy,Energy,Houston,TX,no
+BWX Technologies,Aerospace & Defense,Lynchburg,VA,no
+Vizio Holding,Industrials,Irvine,CA,no
+1-800-Flowers.com,Retailing,Jericho,NY,no
+Cowen,Financials,New York,NY,no
+Ashland,Chemicals,Wilmington,DE,no
+DocuSign,Technology,San Francisco,CA,no
