@@ -1,24 +1,33 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 import csv
 import json
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET'])
-def home():
-    csv_file_path = 'Resources/company_data.csv'
-    json_data = []
+# Load JSON data from 'company_data.json' file
+with open('company_data.json', 'r') as json_file:
+    json_data = json.load(json_file)
 
-    with open(csv_file_path, 'r') as csv_file:
-        csv_reader = csv.DictReader(csv_file)
-        for row in csv_reader:
-            json_data.append(row)
+# Load GeoJSON data from 'GeoObs.json' file
+with open('GeoObs.json', 'r') as geojson_file:
+    geojson_data = json.load(geojson_file)
 
-    # Save JSON data to a file named 'company_data.json'
-    with open('company_data.json', 'w') as json_file:
-        json.dump(json_data, json_file, indent=4)
-
+@app.route('/api/json', methods=['GET'])
+def get_json():
     return jsonify(json_data)
 
+@app.route('/api/geojson', methods=['GET'])
+def get_geojson():
+    return jsonify(geojson_data)
+
+@app.route('/', methods=['GET'])
+def index():
+    return render_template('index.html', json_data=json_data, geojson_data=geojson_data)
+
 if __name__ == '__main__':
+
+    # Print the URLs to the terminal
+    print("JSON URL: http://127.0.0.1:5000/api/json")
+    print("GeoJSON URL: http://127.0.0.1:5000/api/geojson")
+    
     app.run(debug=True)
