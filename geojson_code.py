@@ -1,91 +1,56 @@
-<<<<<<< HEAD
 import csv
 import json
+import os
 
-from collections import OrderedDict
+# Define paths
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_PATH = os.path.join(BASE_DIR, "Resources", "company_data.csv")
+OUTPUT_PATH = os.path.join(BASE_DIR, "company_data.geojson")
 
-li = []
-with open('Resources/company_data.csv', 'r') as csvfile:
-    reader = csv.reader(csvfile, delimiter=',')
-    for lat, long, Company, Revenue_2021, Revenue_per_change_2021, Profits_in_millions_2021, Market_value_2021, Employees_2021, Revenue_2022, Revenue_per_change_2022, Profits_in_millions_2022, Market_value_2022, Employees_2022, Sector, City, State, Ceo_woman in reader:
-        d = OrderedDict()
-        d['type'] = 'Feature'
-        d['geometry'] = {
-            'type': 'Point',
-            'coordinates': [(lat), (long)],
+def csv_to_geojson(input_file, output_file):
+    try:
+        # Read the CSV and convert to GeoJSON format
+        features = []
+        with open(input_file, 'r') as csvfile:
+            reader = csv.DictReader(csvfile)
+
+            # Check if required columns exist
+            if 'lat' not in reader.fieldnames or 'long' not in reader.fieldnames:
+                raise ValueError("CSV does not contain required 'lat' or 'long' columns")
+
+            for row in reader:
+                try:
+                    latitude, longitude = float(row['lat']), float(row['long'])
+                except ValueError:
+                    print(f"Warning: Skipping row due to invalid lat or long values: {row}")
+                    continue
+                
+                feature = {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [longitude, latitude]
+                    },
+                    "properties": {k: v for k, v in row.items()}
+                }
+                del feature["properties"]["lat"]
+                del feature["properties"]["long"]
+
+                features.append(feature)
+
+        geojson = {
+            "type": "FeatureCollection",
+            "features": features
         }
-#went through all the columns in the csv file and added here
-                            
-        d['properties'] = {
-            'Company': Company,
-            'Revenue_2021': Revenue_2021,
-            'Revenue_%_change_2021': Revenue_per_change_2021,
-            'Profits_in_millions_2021': Profits_in_millions_2021,
-            'Market_value_2021':Market_value_2021,
-            'Employees_2021':Employees_2021,
-            'Revenue_2022': Revenue_2022, 
-            'Revenue_%_change_2022': Revenue_per_change_2022,
-            'Profits_in_millions_2022': Profits_in_millions_2022,
-            'Market_value_2022':Market_value_2022,
-            'Employees_2022':Employees_2022,
-            'Sector':Sector,
-            'City': City,
-            'State': State,
-            'Ceo_woman':Ceo_woman
 
-        }
-        li.append(d)
+        # Write the GeoJSON to an output file
+        with open(output_file, 'w') as outfile:
+            json.dump(geojson, outfile)
+        
+        print(f"GeoJSON saved to {output_file}")
 
-d = OrderedDict()
-d['type'] = 'FeatureCollection'
-d['features'] = li
-with open('GeoObs.json', 'w') as f:
-    f.write(json.dumps(d, sort_keys=False, indent=4))
-=======
-import csv
-import json
+    except Exception as e:
+        print(f"Error: {e}")
 
-from collections import OrderedDict
-
-li = []
-with open('company_data_and_location_to_geojson.csv', 'r') as csvfile:
-    reader = csv.reader(csvfile, delimiter=',') 
-    
-    #skips the header row
-    next(reader)
-
-    for lat, long, Company, Revenue_2021, Revenue_per_change_2021, Profits_in_millions_2021, Market_value_2021, Employees_2021, Revenue_2022, Revenue_per_change_2022, Profits_in_millions_2022, Market_value_2022, Employees_2022, Sector, City, State, Ceo_woman in reader:
-        d = OrderedDict()
-        d['type'] = 'Feature'
-        d['geometry'] = {
-            'type': 'Point',
-            'coordinates': [(lat), (long)],
-        }
-#went through all the columns in the csv file and added here
-                            
-        d['properties'] = {
-            'Company': Company,
-            'Revenue_2021': Revenue_2021,
-            'Revenue_%_change_2021': Revenue_per_change_2021,
-            'Profits_in_millions_2021': Profits_in_millions_2021,
-            'Market_value_2021':Market_value_2021,
-            'Employees_2021':Employees_2021,
-            'Revenue_2022': Revenue_2022, 
-            'Revenue_%_change_2022': Revenue_per_change_2022,
-            'Profits_in_millions_2022': Profits_in_millions_2022,
-            'Market_value_2022':Market_value_2022,
-            'Employees_2022':Employees_2022,
-            'Sector':Sector,
-            'City': City,
-            'State': State,
-            'Ceo_woman':Ceo_woman
-
-        }
-        li.append(d)
-
-d = OrderedDict()
-d['type'] = 'FeatureCollection'
-d['features'] = li
-with open('GeoObs.json', 'w') as f:
-    f.write(json.dumps(d, sort_keys=False, indent=4))
->>>>>>> e4e3da799cb780104235441de82c80bf291fb918
+# Usage
+csv_to_geojson(INPUT_PATH, OUTPUT_PATH)
