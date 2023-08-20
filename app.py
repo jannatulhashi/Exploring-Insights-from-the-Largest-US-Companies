@@ -9,7 +9,7 @@ with open('company_data.json', 'r') as json_file:
     json_data = json.load(json_file)
 
 # Load GeoJSON data from 'GeoObs.json' file
-with open('GeoObs.json', 'r') as geojson_file:
+with open('company_data.geojson', 'r') as geojson_file:
     geojson_data = json.load(geojson_file)
 
 @app.route('/api/json', methods=['GET'])
