@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring the Top US Companies Insights</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        /* custom styling for better visual appeal */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .chart {
+            margin-top: 30px;
+            height: 400px;  
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Exploring the Top US Companies Insights</h1>
+        <!-- Dropdown menu for selecting a year -->
+        <div class="dropdown">
+            <label for="year-dropdown">Select a Year:</label>
+            <select id="year-dropdown" class="form-control">
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select>
+        </div>
+
+        <!-- Bootstrap Row -->
+        <div class="row">
+            <!-- Placeholder for the bar chart -->
+            <div class="col-md-6">
+                <div id="bar-chart" class="chart"></div>
+            </div>
+            <!-- Placeholder for the pie chart -->
+            <div class="col-md-6">
+                <div id="pie-chart" class="chart"></div>
+            </div>
+        </div>
+
+        <!-- Placeholder for the bubble chart -->
+        <div id="bubble-chart" class="chart"></div>
+    </div>
+
+    <!-- Include D3 library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Include Plotly.js library -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Include my custom JavaScript file -->
+    <script src="plots.js"></script>
+</body>
+
+</html>
