@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 100 Companies with Female CEOs by Revenue and Employee Count</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div>
+        <!-- Dropdown menu for selecting the year -->
+        <select id="yearSelector" onchange="updatePlots()">
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+        </select>
+      </div>
+      
+    <div id="barChart"></div>
+    <div id="scatterPlot"></div>
+    <!-- Include D3 library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Include Plotly.js library -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Include your custom JavaScript file -->
+    <script src="plots.js"></script>
+</body>
+</html>
