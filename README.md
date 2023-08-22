@@ -1,4 +1,4 @@
-# Project Name:
+# Exploring Insights from the Largest US Companies
 
 ## Overview
 The project is about creating an interactive web application that uses  datasets containing information about the largest companies in the United States by revenue, profits, and market value as compiled by the Fortune 500 ranking in 2021 and 2022. This application will be developed using various technologies such as Python Flask for the backend, HTML/CSS and JavaScript for the front end, and a chosen database (SQL) to store and manage the dataset.
