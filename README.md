@@ -26,7 +26,8 @@ Tracey Geneau - Create Interactive Visualization with JavaScript Leaflet
 •	Engagement: Interactive elements enhance user engagement and data exploration.
 
 ### Required Project Files For Analysis:
-**raw data folder:** We'll collect these datasets from Kaggle [(https://www.kaggle.com/datasets/ramjasmaurya/fortune-1000-companieslatest)], [(https://www.kaggle.com/datasets/winston56/fortune-500-data-2021)]
+**raw data folder:** We'll collect these datasets from Kaggle [(https://www.kaggle.com/datasets/ramjasmaurya/fortune-1000-companieslatest)],    
+ [(https://www.kaggle.com/datasets/winston56/fortune-500-data-2021)]
 
 In this folder,
 - Fortune_1000.csv
@@ -67,7 +68,22 @@ In this folder,
 -  In which geographic locations are the top 20 companies of 2021 primarily located?
 
  ### Project Work:
- After cleaning the dataset using Jupyter Notebook, creating an ERD Diagram using [https://app.quickdatabasediagrams.com/] to develop SQL schema and assign the correct data types to all of our columns
+**Step 1:** Once we cleaned the dataset with Jupyter Notebook, we made an ERD Diagram using  [(https://app.quickdatabasediagrams.com/)] to design the SQL schema and properly set data types for all columns.
+
+![](images/QuickDBD_export.png)
+
+**Step 2:** We used pgAdmin4 to build tables and combine datasets. This helped us create a single database for our Flask APIs. By joining the three datasets on the "Company" field, we picked the right columns to prevent duplicate values
+
+![](images/company_data_location.png)
+
+**Step 3:** Once our database is created, we convert it into a CSV file named "company_data.csv" using Python Flask API routes. This allows us to retrieve the JSON and GeoJSON URLs as well as the JSON and GeoJSON data, which are used to create our interactive visualization.
+
+**Step 4:** Create Interactive Visualization
+
+##### Create an Interactive Dashboard for exploring Top US Companies Insights
+
+![](images/Plotly_1.PNG)
+
 
 
 
