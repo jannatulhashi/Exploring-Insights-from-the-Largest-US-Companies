@@ -5,11 +5,22 @@ The project is about creating an interactive web application that uses  datasets
 
 The main goal of the project is to provide users with a visually engaging and informative platform to explore and understand the significance of these large US companies within the corporate landscape. The application will feature various data visualizations that present insights from the dataset, highlighting different aspects of the companies' revenues, industries, and other relevant information.
 
+### Team Members
+
+Cindy Li - Clean the dataset
+Ruby Landry - Perform SQL query to house the data
+Jannatul Hashi - Create Interactive Visualization with JavaScript Plotly and Highcharts
+Tracey Geneau - Create Interactive Visualization with JavaScript Leaflet
+
 ### Why we choose this project: 
 •	Insightful Exploration: Users can understand and analyze the financial landscape of top US companies.
+
 •	Informed Decision-Making: Professionals, investors, and policymakers can make strategic choices based on data-driven insights.
+
 •	Educational Value: Researchers can study real-world financial applications.
+
 •	Comparative Insights: Users can compare companies and industries, revealing trends and competition.
+
 •	Engagement: Interactive elements enhance user engagement and data exploration.
 
 ### Project Files:
