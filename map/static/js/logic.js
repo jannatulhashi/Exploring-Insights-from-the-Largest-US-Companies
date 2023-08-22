@@ -29,28 +29,27 @@ function createMap(topCompanies) {
 }
 
 function createMarkers(response) {
+  // Pull the "stations" property from properties.company.
+  let companies = response.features;
 
-    // Pull the "stations" property from properties.company.
-    let companies = properties.company;
-  
-    // Initialize an array to hold bike markers.
-    let companyMarkers = [];
-  
-    // Loop through the stations array.
-    for (let index = 0; index < company.length; index++) {
-      let company = companies[index];
-  
-      // For each station, create a marker, and bind a popup with the station's name.
-      let companyMarker = L.marker([company.lat, company.lon])
-        .bindPopup("<h3>" + properties.Company + "<h3><h3>Revenue in 2021: " + properties.Revenue_2021 + "<h3><h3>Revenue in 2022: " + properties.Revenue_2022 + "</h3>");
-  
-      // Add the marker to the bikeMarkers array.
-      companyMarkers.push(companyMarker);
-    }
-  
-    // Create a layer group that's made from the bike markers array, and pass it to the createMap function.
-    createMap(L.layerGroup(companyMarkers));
+  // Initialize an array to hold company markers.
+  let companyMarkers = [];
+
+  // Loop through the stations array.
+  for (let index = 0; index < companies.length; index++) {
+    let company = companies[index];
+
+    // For each company, create a marker and bind a popup with the company's name.
+    let companyMarker = L.marker([company.geometry.coordinates[1], company.geometry.coordinates[0]])
+      .bindPopup("<h3>" + company.properties.Company + "</h3><h3>Revenue in 2021: " + company.properties.Revenue_2021 + "</h3><h3>Revenue in 2022: " + company.properties.Revenue_2022 + "</h3>");
+
+    // Add the marker to the companyMarkers array.
+    companyMarkers.push(companyMarker);
   }
 
-  // Perform an API call to the geojson API to get the station information. Call createMarkers when it completes.
+  // Create a layer group made from the company markers array and pass it to the createMap function.
+  createMap(L.layerGroup(companyMarkers));
+}
+
+// Perform an API call to the geojson API to get the station information. Call createMarkers when it completes.
 d3.json("http://127.0.0.1:5000/api/geojson").then(createMarkers);
