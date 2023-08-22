@@ -23,10 +23,9 @@ In this folder,
  **Resources Folder:** In this folder,
  
    1: We have 3 cleaned CSV files
-   
-      - company_data_2021.csv
-      - company_data_2022.csv
-      - all_company_location.csv
+    - company_data_2021.csv
+    - company_data_2022.csv
+    - all_company_location.csv
         
    2: We created another CSV file using an SQL JOIN query to combine the three cleaned CSV files for further analysis.
 
