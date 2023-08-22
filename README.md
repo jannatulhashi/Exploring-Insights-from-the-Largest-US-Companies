@@ -25,7 +25,7 @@ Tracey Geneau - Create Interactive Visualization with JavaScript Leaflet
 
 •	Engagement: Interactive elements enhance user engagement and data exploration.
 
-### Project Files:
+### Required Project Files For Analysis:
 **raw data folder:** We'll collect these datasets from Kaggle [(https://www.kaggle.com/datasets/ramjasmaurya/fortune-1000-companieslatest)], [(https://www.kaggle.com/datasets/winston56/fortune-500-data-2021)]
 
 In this folder,
