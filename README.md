@@ -10,7 +10,7 @@ Cindy Li - Clean the dataset
 
 Ruby Landry - Perform SQL query to house the data
 
-Jannatul Hashi - Create Interactive Visualization with JavaScript Plotly and Highcharts
+Jannatul Ferdos Hashi - Create Interactive Visualization with JavaScript Plotly and Highcharts
 
 Tracey Geneau - Create Interactive Visualization with JavaScript Leaflet
 
