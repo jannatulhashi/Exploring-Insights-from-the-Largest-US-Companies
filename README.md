@@ -8,8 +8,11 @@ The main goal of the project is to provide users with a visually engaging and in
 ### Team Members
 
 Cindy Li - Clean the dataset
+
 Ruby Landry - Perform SQL query to house the data
+
 Jannatul Hashi - Create Interactive Visualization with JavaScript Plotly and Highcharts
+
 Tracey Geneau - Create Interactive Visualization with JavaScript Leaflet
 
 ### Why we choose this project: 
