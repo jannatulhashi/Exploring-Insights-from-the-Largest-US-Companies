@@ -6,7 +6,6 @@ The project is about creating an interactive web application that uses  datasets
 The main goal of the project is to provide users with a visually engaging and informative platform to explore and understand the significance of these large US companies within the corporate landscape. The application will feature various data visualizations that present insights from the dataset, highlighting different aspects of the companies' revenues, industries, and other relevant information.
 
 ### Team Members
-
 Cindy Li - Clean the dataset
 
 Ruby Landry - Perform SQL query to house the data
