@@ -41,7 +41,9 @@ In this folder,
 - company_data_2022.csv
 - all_company_location.csv
 
-2: We created another CSV file using an SQL JOIN query to combine the three cleaned CSV files for further analysis.
+3: Another csv file named **Company_location.csv** which contains all companies location  
+
+4: We created our final CSV file named **company_data.csv** using an SQL JOIN query to combine the three cleaned CSV files for further analysis.
 
   
    
