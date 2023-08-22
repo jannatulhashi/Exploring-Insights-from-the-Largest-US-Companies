@@ -1,7 +1,7 @@
 # Project Name:
 
 ## Overview
-The project is about creating an interactive web application that uses a dataset containing information about the largest companies in the United States by revenue, profits, and market value as compiled by the Fortune 500 ranking in 2021 and 2022. This application will be developed using various technologies such as Python Flask for the backend, HTML/CSS and JavaScript for the front end, and a chosen database (SQL) to store and manage the dataset.
+The project is about creating an interactive web application that uses  datasets containing information about the largest companies in the United States by revenue, profits, and market value as compiled by the Fortune 500 ranking in 2021 and 2022. This application will be developed using various technologies such as Python Flask for the backend, HTML/CSS and JavaScript for the front end, and a chosen database (SQL) to store and manage the dataset.
 
 The main goal of the project is to provide users with a visually engaging and informative platform to explore and understand the significance of these large US companies within the corporate landscape. The application will feature various data visualizations that present insights from the dataset, highlighting different aspects of the companies' revenues, industries, and other relevant information.
 
