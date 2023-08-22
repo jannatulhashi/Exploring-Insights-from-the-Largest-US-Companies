@@ -95,9 +95,8 @@ function updatePieChart(selectedYear, data) {
 }
 
 
-// Function to bubble chart
-// Function to update the Bubble Chart
-// Function to update the Bubble Chart
+// Function to update the  bubble chart
+
 function updateBubbleChart(selectedYear, data) {
     const filteredData = data.filter((item) => item[`Revenue_${selectedYear}`]);
 
@@ -125,7 +124,7 @@ function updateBubbleChart(selectedYear, data) {
 }
 
 
-// Dropdown change event listener
+
 
 // Dropdown change event listener
 d3.select("#year-dropdown").on("change", function() {
