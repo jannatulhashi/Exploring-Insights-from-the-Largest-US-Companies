@@ -80,7 +80,7 @@ In this folder,
 
 **Step 4:** Create Interactive Visualization
 
-##### Create an Interactive Dashboard for exploring Top US Companies Insights
+#### Create an Interactive Dashboard for exploring Top US Companies Insights
 
 ![](images/Plotly_1.PNG)
 
