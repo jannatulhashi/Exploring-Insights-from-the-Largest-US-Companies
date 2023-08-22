@@ -33,7 +33,7 @@ $(document).ready(() => {
             },
             legend: {
                 title: {
-                    text: 'Revenue Growth and Profits (2021 to 2022)',
+                    text: 'Revenue Growth and Profits',
                     style: {
                         color: (Highcharts.theme && Highcharts.theme.textColor) || 'black'
                     }
@@ -51,7 +51,7 @@ $(document).ready(() => {
                 data: [],
                 mapData: mapData,
                 joinBy: 'hc-key',
-                name: 'Average Revenue Change',
+                name: 'Average Revenue Change (2021 to 2022)',
                 color: 'teal',
                 states: {
                     hover: {
