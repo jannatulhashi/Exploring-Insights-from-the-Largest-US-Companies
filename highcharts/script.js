@@ -24,34 +24,18 @@ $(document).ready(() => {
                 zoomType: 'x'
             },
             title: {
-                text: `Geographical Insights into U.S. Companies' Profits and Revenue Growth`
+                text: `Geographical Insights into U.S. Companies' Market Value and Revenue Growth`
             },
             mapNavigation: {
                 enabled: true,
                 enableButtons: true,
                 enableMouseWheelZoom: true
             },
-            legend: {
-                title: {
-                    text: 'Revenue Growth and Profits',
-                    style: {
-                        color: (Highcharts.theme && Highcharts.theme.textColor) || 'black'
-                    }
-                },
-                align: 'right',
-                verticalAlign: 'middle',
-                floating: true,
-                layout: 'vertical',
-                valueDecimals: 0,
-                backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || 'rgba(255, 255, 255, 0.85)',
-                symbolRadius: 0,
-                symbolHeight: 14
-            },
             series: [{
                 data: [],
                 mapData: mapData,
                 joinBy: 'hc-key',
-                name: 'Average Revenue Change (2021 to 2022)',
+                name: 'Average Revenue Change (2021 to 2022) and Market Value 2022',
                 color: 'teal',
                 states: {
                     hover: {
@@ -73,37 +57,7 @@ $(document).ready(() => {
                         + '<br>City: <b>{point.city}</b>'
                         + '<br>State: <b>{point.state}</b>'
                         + '<br>Average Revenue Change: <b>{point.revenueChange}%</b>'
-                        + '<br>Profits (2022): <b>${point.profits2022}M</b>'
-                        + '<br>Sector: <b>{point.sector}</b>'
-                        + '<br>No of Employees (2022): <b>{point.employees2022}</b>',
-                    style: {
-                        color: '#333333',
-                        fontSize: '14px',
-                        fontFamily: 'Arial',
-                        fontWeight: 'bold',
-                        padding: '10px',
-                        border: '1px solid #aaa',
-                        backgroundColor: 'rgba(255, 255, 255, 0.9)'
-                    },
-                    headerFormat: '',
-                    shared: true,
-                    crosshairs: true
-                }
-            }, {
-                data: [],
-                mapData: mapData,
-                joinBy: 'hc-key',
-                name: 'Profits in 2022',
-                type: 'mapbubble',
-                maxSize: '12%',
-                color: 'goldenrod',
-                zMin: 0,
-                tooltip: {
-                    pointFormat: '<br>Company: <b>{point.company}</b>'
-                        + '<br>City: <b>{point.city}</b>'
-                        + '<br>State: <b>{point.state}</b>'
-                        + '<br>Average Revenue Change: <b>{point.revenueChange}%</b>'
-                        + '<br>Profits (2022): <b>${point.profits2022}M</b>'
+                        + '<br>Market Value (2022): <b>${point.marketValue2022}M</b>'
                         + '<br>Sector: <b>{point.sector}</b>'
                         + '<br>No of Employees (2022): <b>{point.employees2022}</b>',
                     style: {
@@ -133,20 +87,15 @@ $(document).ready(() => {
                 sector: feature.properties.Sector,
                 revenueChange: parseFloat(feature.properties['Revenue%change_2022']).toFixed(2),
                 employees2022: feature.properties.Employees_2022,
-                lat: coordinates[1], 
+                marketValue2022: parseFloat(feature.properties['Market_value_2022']).toFixed(2),
+                lat: coordinates[1],
                 lon: coordinates[0]
             };
 
             // Push to Average Revenue Change series
-    options.series[0].data.push(dataObj);
+            options.series[0].data.push(dataObj);
+        });
 
-    // Push to Profits in 2022 series with zValue for bubble size
-    options.series[1].data.push({
-        ...dataObj,
-        z: parseFloat(feature.properties['Profits_in_millions_2022']), // Setting the z value which determines bubble size
-        profits2022: parseFloat(feature.properties['Profits_in_millions_2022']).toFixed(2)
-    });
-});
         // Initialize the chart
         window.chart = new Highcharts.Map(options);
 
