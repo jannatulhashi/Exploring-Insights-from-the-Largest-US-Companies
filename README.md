@@ -22,7 +22,7 @@ In this folder,
 
 **Resources Folder:** In this folder,
  
-1: We have 3 cleaned CSV files
+1: We have 3 cleaned CSV files:
 
 - company_data_2021.csv
 - company_data_2022.csv
