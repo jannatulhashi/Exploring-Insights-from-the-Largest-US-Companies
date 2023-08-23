@@ -80,14 +80,6 @@ In this folder,
 
 ![](Images/Flask_App.png)
 
-This is our JSON Data:
-
-![](Images/Json URL.PNG)
-
-This is our GeoJSON Data:
-
-![](Images/Geojson URL.PNG)
-
 **Step 4:** Create Interactive Visualization
 
 #### Create an Interactive Dashboard for exploring Top US Companies Insights
