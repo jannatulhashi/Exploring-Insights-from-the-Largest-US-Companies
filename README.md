@@ -14,7 +14,7 @@ Jannatul Ferdos Hashi - Create Interactive Visualization with JavaScript Plotly 
 
 Tracey Geneau - Create Interactive Visualization with JavaScript Leaflet
 
-### Why we choose this project: 
+### Why we chose this project: 
 •	Insightful Exploration: Users can understand and analyze the financial landscape of top US companies.
 
 •	Informed Decision-Making: Professionals, investors, and policymakers can make strategic choices based on data-driven insights.
